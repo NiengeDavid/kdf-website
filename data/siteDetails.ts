@@ -1,5 +1,5 @@
 export const siteDetails = {
-    siteName: 'KDF-MIU',
+    siteName: 'KDF Scholarship Foundation',
     siteUrl: '/',
     metadata: {
         title: 'Home | KDF-MIU',
