@@ -2,6 +2,7 @@ import AwardCards from "@/components/home/awardCards";
 import CardBg from "@/components/home/cardBg";
 import Gallery from "@/components/home/gallery";
 import HeroCard from "@/components/home/herocard";
+import Banner from "@/components/home/redbanner";
 import Testimonials from "@/components/home/testimonial";
 import { homeDetails } from "@/data/homePage";
 
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Testimonials />
       <Gallery />
       <HeroCard data={homeDetails.sponsor}/>
+      <Banner data={homeDetails.banner}/>
     </div>
   );
 }

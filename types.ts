@@ -23,6 +23,7 @@ export interface IHomeDetails {
   testimonials: ITestimonial;
   gallery: IHomeGallery;
   sponsor: IAboutCta;
+  banner: IHomeBanner;
 }
 
 export interface hero {
@@ -72,4 +73,15 @@ interface IHomeGallery {
   title: string;
   desc: string;
   images: string[];
+}
+
+export interface IHomeBanner {
+  title: string;
+  desc: string;
+  buttons: IButton[]
+}
+
+interface IButton {
+  text: string;
+    link: string;
 }

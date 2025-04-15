@@ -84,13 +84,22 @@ export const homeDetails: IHomeDetails = {
   sponsor: {
     title: "Our Sponsor",
     desc: "We're grateful for the support of the organizations that make our scholarship programs possible. Special appreciation to Eng. Dr. Rabiu Musa Kwankwanso for giving us this oppurtunity. We're grateful for the support of the organizations that make our scholarship programs possible. Special appreciation to Eng. Dr. Rabiu Musa Kwankwanso for giving us this oppurtunity.",
-    desc2:
-      "Our mission is to empower the next generation of leaders through education, fostering academic excellence and community development.",
-    btn: {
-      text: "Learn More About Us",
-      link: "/about",
-    },
-    image: "/assets/hero-image.png",
+    image: "/assets/hero-image-2.png",
     position: "left",
   },
+
+  banner: {
+    title: "Be Part of Our Journey",
+    desc: "Share with us your exciting moments at Mewar International University as a student or your encounter with a KDF student at MIU",
+    buttons: [
+      {
+        text: "Get Involved",
+        link: "/contact",
+      },
+      {
+        text: "View Our Work",
+        link: "/gallery",
+      },
+    ],
+  }
 };

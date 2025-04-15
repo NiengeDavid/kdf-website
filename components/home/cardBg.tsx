@@ -31,7 +31,7 @@ export default function CardBg({ heroDetails }: { heroDetails: hero }) {
           </Link>
           <Link
             href={heroDetails.btn2.link}
-            className="bg-secondary-red text-white text-lg font-medium border hover:border-transparent border-white px-5 md:px-8 py-2 rounded-sm"
+            className="bg-secondary-red text-white text-lg font-medium border hover:bg-white hover:text-black hover:border-transparent border-white px-5 md:px-8 py-2 rounded-sm"
           >
             {heroDetails.btn2.text}
           </Link>
