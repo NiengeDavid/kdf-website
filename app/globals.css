@@ -8,10 +8,11 @@
 
 @theme inline {
   --color-bg1: #791515;
-  --color-bg2: #E9EAEB;
+  --color-bg2: #e9eaeb;
   --color-bg1-accent: #881818;
-  --color-primary-red: #DC2626;
-  --color-secondary-red: #9A3030;
+  --color-bg2-accent: #fee2e2;
+  --color-primary-red: #dc2626;
+  --color-secondary-red: #9a3030;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
