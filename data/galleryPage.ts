@@ -14,7 +14,7 @@ export const IGalleryDetails = {
       },
       {
         text: "Constitution",
-        link: "#",
+        link: "/assets/gallery/KDF-CONSTITUTION.pdf",
       },
     ],
   },

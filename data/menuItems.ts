@@ -27,8 +27,8 @@ export const menuItems: IMenuItem[] = [
     text: "Contact",
     url: "/contact",
   },
-  {
-    text: "FAQs",
-    url: "/faqs",
-  },
+  // {
+  //   text: "FAQs",
+  //   url: "/faqs",
+  // },
 ];
