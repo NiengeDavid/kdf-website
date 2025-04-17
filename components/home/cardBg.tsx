@@ -23,18 +23,22 @@ export default function CardBg({ heroDetails }: { heroDetails: hero }) {
           </CardDescription>
         </CardHeader>
         <CardFooter className="flex gap-5">
-          <Link
-            href={heroDetails.btn1.link}
-            className="bg-white text-primary-red text-lg font-medium border hover:bg-secondary-red hover:text-white border-white px-5 md:px-8 py-2 rounded-sm"
-          >
-            {heroDetails.btn1.text}
-          </Link>
-          <Link
-            href={heroDetails.btn2.link}
-            className="bg-secondary-red text-white text-lg font-medium border hover:bg-white hover:text-black hover:border-transparent border-white px-5 md:px-8 py-2 rounded-sm"
-          >
-            {heroDetails.btn2.text}
-          </Link>
+          {heroDetails?.btn1 && (
+            <Link
+              href={heroDetails.btn1.link}
+              className="bg-white text-primary-red text-lg font-medium border hover:bg-secondary-red hover:text-white border-white px-5 md:px-8 py-2 rounded-sm"
+            >
+              {heroDetails.btn1.text}
+            </Link>
+          )}
+          {heroDetails?.btn2 && (
+            <Link
+              href={heroDetails.btn2.link}
+              className="bg-secondary-red text-white text-lg font-medium border hover:bg-white hover:text-black hover:border-transparent border-white px-5 md:px-8 py-2 rounded-sm"
+            >
+              {heroDetails.btn2.text}
+            </Link>
+          )}
         </CardFooter>
       </Container>
     </Card>

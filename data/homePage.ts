@@ -1,5 +1,4 @@
 import { IHomeDetails } from "@/types";
-import { title } from "process";
 
 export const homeDetails: IHomeDetails = {
   hero: {
@@ -27,7 +26,7 @@ export const homeDetails: IHomeDetails = {
       image: "/assets/location-line.png",
     },
     {
-      title: "50+",
+      title: "50M+",
       desc: "Fund spent",
       image: "/assets/money.png",
     },

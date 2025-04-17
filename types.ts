@@ -29,11 +29,11 @@ export interface IHomeDetails {
 export interface hero {
   title: string;
   Description: string;
-  btn1: {
+  btn1?: {
     text: string;
     link: string;
   };
-  btn2: {
+  btn2?: {
     text: string;
     link: string;
   };
