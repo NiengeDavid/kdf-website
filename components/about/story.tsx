@@ -6,20 +6,20 @@ export default function OurStorySection() {
       <div className="w-full h-[826px] px-auto py-11 bg-gray-200 inline-flex flex-col justify-center items-center gap-2.5">
         <div className="w-[952px] flex flex-col justify-center items-center gap-7">
           <div className="w-[805px] flex flex-col justify-center items-center gap-5">
-            <div className="self-stretch text-center justify-center text-black text-3xl font-bold font-['Poppins']">
+            <div className="self-stretch text-center justify-center text-black text-3xl font-bold">
               Our Story
             </div>
-            <div className="self-stretch text-center justify-center text-black text-xl font-medium font-['Poppins']">
+            <div className="self-stretch text-center justify-center text-black text-xl font-medium">
               The journey of KDF Scholarship Foundation and how we've grown over
               the years.
             </div>
           </div>
           <div className="self-stretch flex flex-col justify-center items-start gap-5">
             <div className="self-stretch h-48 pl-5 bg-white rounded-lg flex flex-col justify-center items-start gap-3.5">
-              <div className="self-stretch justify-center text-left text-red-600 text-2xl font-semibold font-['Poppins']">
+              <div className="self-stretch justify-center text-left text-red-600 text-2xl font-semibold">
                 The Beginning
               </div>
-              <div className="self-stretch justify-center text-left text-zinc-500 text-xl font-medium font-['Poppins']">
+              <div className="self-stretch justify-center text-left text-zinc-500 text-xl font-medium">
                 KDF Scholarship Foundation was established in 2010 with a vision
                 to support talented students who lacked the financial means to
                 pursue higher education. What started as a small initiative
@@ -28,10 +28,10 @@ export default function OurStorySection() {
               </div>
             </div>
             <div className="self-stretch h-48 pl-5 bg-white rounded-lg flex flex-col justify-center items-start gap-3.5">
-              <div className="self-stretch justify-center text-left text-red-600 text-2xl font-semibold font-['Poppins']">
+              <div className="self-stretch justify-center text-left text-red-600 text-2xl font-semibold">
                 Growth and Impact
               </div>
-              <div className="self-stretch justify-center text-left text-zinc-500 text-xl font-medium font-['Poppins']">
+              <div className="self-stretch justify-center text-left text-zinc-500 text-xl font-medium">
                 Over the years, we have expanded our reach to support students
                 across multiple disciplines and educational levels. Through
                 partnerships with educational institutions and generous donors,
@@ -40,10 +40,10 @@ export default function OurStorySection() {
               </div>
             </div>
             <div className="self-stretch h-48 pl-5 bg-white rounded-lg flex flex-col justify-center items-start gap-3.5">
-              <div className="self-stretch justify-center text-left text-red-600 text-2xl font-semibold font-['Poppins']">
+              <div className="self-stretch justify-center text-left text-red-600 text-2xl font-semibold">
                 Today
               </div>
-              <div className="self-stretch justify-center text-left text-zinc-500 text-xl font-medium font-['Poppins']">
+              <div className="self-stretch justify-center text-left text-zinc-500 text-xl font-medium">
                 Today, KDF Scholarship Foundation stands as a beacon of hope for
                 many students. We've awarded over 500 scholarships, partnered
                 with more than 20 institutions, and distributed over 50 million
@@ -58,10 +58,10 @@ export default function OurStorySection() {
 
       <div className="w-full inline-flex flex-col justify-start items-center gap-7 py-20 px-18">
         <div className="w-[805px] flex flex-col justify-start items-center gap-5">
-          <div className="self-stretch text-center justify-start text-black text-3xl font-bold font-['Poppins']">
+          <div className="self-stretch text-center justify-start text-black text-3xl font-bold">
             Our Core
           </div>
-          <div className="self-stretch text-center justify-start text-black text-xl font-medium font-['Poppins']">
+          <div className="self-stretch text-center justify-start text-black text-xl font-medium">
             The principles that guide our work and decision-making process.
           </div>
         </div>
@@ -72,10 +72,10 @@ export default function OurStorySection() {
                 <img src="/academic-cap.svg" alt="" />
               </div>
             </div>
-            <div className="self-stretch text-center justify-start text-black text-2xl font-bold font-['Poppins']">
+            <div className="self-stretch text-center justify-start text-black text-2xl font-bold">
               Excellence
             </div>
-            <div className="w-72 text-center justify-start text-black text-base font-medium font-['Poppins']">
+            <div className="w-72 text-center justify-start text-black text-base font-medium">
               We strive for excellence in all our programs and encourage the
               same in our scholars.
             </div>
@@ -86,10 +86,10 @@ export default function OurStorySection() {
               <img src="/academic-cap.svg" alt="" />
               </div>
             </div>
-            <div className="self-stretch text-center justify-start text-black text-2xl font-bold font-['Poppins']">
+            <div className="self-stretch text-center justify-start text-black text-2xl font-bold">
               Inclusivity
             </div>
-            <div className="w-72 text-center justify-start text-black text-base font-medium font-['Poppins']">
+            <div className="w-72 text-center justify-start text-black text-base font-medium">
               We believe in equal opportunities for all, regardless of
               background or circumstances.
             </div>
@@ -100,10 +100,10 @@ export default function OurStorySection() {
               <img src="/academic-cap.svg" alt="" />
               </div>
             </div>
-            <div className="self-stretch text-center justify-start text-black text-2xl font-bold font-['Poppins']">
+            <div className="self-stretch text-center justify-start text-black text-2xl font-bold">
               Excellence
             </div>
-            <div className="w-72 text-center justify-start text-black text-base font-medium font-['Poppins']">
+            <div className="w-72 text-center justify-start text-black text-base font-medium">
               We believe in the transformative power of education to change
               lives and communities.
             </div>

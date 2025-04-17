@@ -13,7 +13,7 @@ import {
       <Card className="w-full h-full bg-bg1 rounded-none py-16 md:py-24">
         <Container className="space-y-4 md:space-y-8">
           <CardHeader className="space-y-2 md:space-y-5">
-            <CardTitle className="text-white text-start text-2xl font-bold md:text-5xl md:max-w-screen-md">
+            <CardTitle className="text-white text-start text-2xl font-bold md:text-5xl ">
               {aboutDetails.hero.title}
             </CardTitle>
             <CardDescription className="text-white text-start font-medium md:text-2xl md:font-medium">

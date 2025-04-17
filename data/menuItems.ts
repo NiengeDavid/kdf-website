@@ -13,10 +13,10 @@ export const menuItems: IMenuItem[] = [
         text: "Sponsors",
         url: "/sponsors",
       },
-      {
-        text: "Beneficiaries",
-        url: "/beneficiaries",
-      },
+      // {
+      //   text: "Beneficiaries",
+      //   url: "/beneficiaries",
+      // },
     ],
   },
   {
