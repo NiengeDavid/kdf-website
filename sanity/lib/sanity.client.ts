@@ -15,6 +15,8 @@ import {
   // settingsQuery,
   galleryQuery,
   type Gallery,
+  highlightVideoQuery,
+  type HighlightVideo,
   // facultyQuery,
   // type Department,
   // type Faculty,
@@ -46,6 +48,13 @@ export async function getAllGalleries(
   client: SanityClient
 ): Promise<Gallery[]> {
   return (await client.fetch(galleryQuery)) || [];
+}
+
+// Fetch all highlight videos
+export async function getAllHighlightVideos(
+  client: SanityClient
+): Promise<HighlightVideo[]> {
+  return (await client.fetch(highlightVideoQuery)) || [];
 }
 
 //   export async function getAllFaculties(

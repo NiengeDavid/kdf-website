@@ -7,6 +7,7 @@ import { authorType } from "./authorType";
 import { departmentType } from "./departmentType";
 import { facultyType } from "./facultyType";
 import { galleryType } from "./galleryType";
+import { highlightVideoType } from "./highlightVideoType";
 
 export const schema: { types: SchemaTypeDefinition[] } = {
   types: [
@@ -17,5 +18,6 @@ export const schema: { types: SchemaTypeDefinition[] } = {
     departmentType,
     facultyType,
     galleryType,
+    highlightVideoType,
   ],
 };
