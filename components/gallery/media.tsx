@@ -77,7 +77,7 @@ export default function Media() {
             <div className="w-full">
               <Input
                 type="text"
-                placeholder="🔍︎  Search gallery..."
+                placeholder="🔍︎  Search gallery by department..."
                 className="border border-gray-300 rounded-md px-4 py-6 w-full md:w-[698px]"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
